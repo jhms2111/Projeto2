@@ -1,0 +1,401 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*********
+  *HOME
+********/
+.home {
+  position: relative;
+  background-size: 100%;
+  background-size: cover;
+  background-image: url(../image/image5.jpg);
+  background-origin: content-box;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 30px 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  padding: 20px;
+}
+
+.logomarca {
+  width: 150px;
+  opacity: 0.55;
+}
+
+a {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 20px;
+}
+a:hover {
+  color: rgb(115, 223, 142);
+}
+
+/**************
+  *HOME BANNER
+**************/
+.banner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 270px;
+  width: 770px;
+  margin-left: -385px;
+  margin-top: -75px;
+  color: white;
+  text-align: center;
+}
+
+.logo {
+  width: 35px;
+  background: white;
+  opacity: 0.8;
+  border-radius: 50px;
+}
+
+span {
+  display: block;
+}
+
+.slogan1 {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 80px;
+  color: rgb(5, 58, 23);
+}
+
+.slogan2 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 10px;
+  margin-bottom: 15px;
+}
+
+/**************
+    *ABOUT
+**************/
+.about {
+  background-color: rgb(115, 223, 142);
+  -webkit-margin-after: -100px;
+          margin-block-end: -100px;
+}
+
+.container {
+  display: flex;
+  background: rgb(115, 223, 142);
+  margin-bottom: -170px;
+}
+
+.timing {
+  position: relative;
+  top: -50px;
+  width: 610px;
+  padding: 80px;
+  background-image: url(../image/O-que-da-mais-dinheiro-em-salao-de-beleza.jpg);
+  background-repeat: no-repeat;
+  background-color: none;
+  background-size: 400px;
+  margin-left: 100px;
+}
+
+.overlay {
+  position: relative;
+  top: -70px;
+  background: rgb(5, 58, 23);
+  text-align: center;
+  margin-left: -70px;
+  width: 380px;
+  height: 620px;
+  opacity: 0.8;
+  font-size: 30px;
+  letter-spacing: 1.8px;
+}
+
+.icon-cut {
+  width: 50px;
+}
+
+h3 {
+  color: rgb(5, 58, 23);
+  text-transform: uppercase;
+  border-bottom: 1px solid rgb(5, 58, 23);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto 30px auto;
+  font-size: 35px;
+  color: white;
+}
+
+.text {
+  margin: 10px 0;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+h4 {
+  color: white;
+  font-size: 17px;
+}
+
+span {
+  color: white;
+  font-size: 13px;
+  display: block;
+}
+
+.experience {
+  margin-right: 0px;
+  width: 110%;
+  color: rgb(5, 58, 23);
+  margin-left: -71px;
+  margin-top: 20px;
+}
+
+.texto1 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-left: 30px;
+  color: rgb(5, 58, 23);
+}
+
+.text5 {
+  font-weight: 400;
+  font-size: 60px;
+  margin-left: 30px;
+}
+
+.image2 {
+  position: relative;
+  float: right;
+  margin-top: -450px;
+  margin-right: -414px;
+}
+
+.text2 {
+  text-align: justify;
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 17.5px;
+  margin-right: 480px;
+  margin-left: 40px;
+}
+
+/**************
+    *SERVICE
+**************/
+.services {
+  background: rgb(254, 222, 222);
+  border: solid 4px rgb(5, 58, 23);
+  text-align: center;
+}
+
+.container2 {
+  margin-bottom: 120px;
+}
+
+.procedimentos11 {
+  color: rgb(5, 58, 23);
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 80px;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 51px;
+  margin-right: 170px;
+  margin-left: 170px;
+}
+
+.box {
+  border: 3px solid rgb(5, 58, 23);
+  padding: 50px 70px;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+h4 {
+  color: rgb(5, 58, 23);
+  margin-top: 30px;
+}
+
+p {
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.procedimentos1 {
+  width: 50px;
+}
+
+/******************
+   * APPOINTMENT
+*******************/
+.appointment {
+  padding: 0;
+  height: 100vh;
+  background-image: url(../image/image6.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  height: 580px;
+}
+
+.containerap {
+  text-align: center;
+}
+
+.agendamento {
+  font-size: 45px;
+  text-align: center;
+  color: rgb(5, 58, 23);
+  margin-top: 10px;
+  margin-bottom: 2px;
+  opacity: 0.85;
+}
+
+.imageag {
+  position: relative;
+  width: 50px;
+}
+
+form {
+  font-size: 50px;
+  text-align: start;
+  margin-top: 50px;
+  margin-right: 300px;
+  margin-left: 300px;
+  color: rgb(5, 58, 23);
+  opacity: 0.85;
+}
+
+.personal-data {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-wrapper {
+  width: 100%;
+  margin-right: 50px;
+}
+
+.input-wrapper:last-of-type {
+  margin-right: 0;
+}
+
+label {
+  display: block;
+  font-size: 17px;
+  margin-bottom: -20px;
+  color: white;
+  background-color: rgb(5, 58, 23);
+  opacity: 0.75;
+}
+
+input {
+  background-color: rgb(115, 223, 142);
+  font-size: 11px;
+}
+
+input::-moz-placeholder {
+  color: rgb(5, 58, 23);
+}
+
+input:-ms-input-placeholder {
+  color: rgb(5, 58, 23);
+}
+
+input::placeholder {
+  color: rgb(5, 58, 23);
+}
+
+.opcoes {
+  font-size: 11px;
+  background-color: rgb(115, 223, 142);
+}
+
+.opcoes1 {
+  font-size: 11px;
+  background-color: rgb(115, 223, 142);
+}
+
+.opcoes2 {
+  font-size: 11px;
+  background-color: rgb(115, 223, 142);
+}
+
+.opcoes3 {
+  font-size: 11px;
+  background-color: rgb(115, 223, 142);
+}
+
+input, select, textarea {
+  padding: 10px;
+  outline: none;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+}
+
+textarea {
+  height: 100px;
+  background-color: rgb(115, 223, 142);
+}
+
+.input-wrapper2 {
+  margin-top: 50px;
+  color: black;
+}
+
+.mensagem {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: rgb(5, 58, 23);
+  color: white;
+  padding: 15px 40px;
+  border: none;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+}/*# sourceMappingURL=main.css.map */
